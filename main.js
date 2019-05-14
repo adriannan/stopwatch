@@ -27,9 +27,6 @@ const startTimer = () => {
 }
 
 
-
-
-
 btnMain.addEventListener('click', startTimer)
 btnReset.addEventListener('click', ()=>{
     clearInterval(interval);
