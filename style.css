@@ -1,0 +1,39 @@
+    *:focus{
+        outline: none;
+    }
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #dffffc;
+        background: radial-gradient(circle, #dffffc 8%, #92c6e6 79%, #7fb0e7 95%);
+        height: 100vh;
+    }
+    .btns{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    button {
+        font-size: 2em;
+        margin: 10px 30px;
+        padding: .4em 1.4em;
+        border: 1px solid #03072c;
+        border-radius: 1em;
+        color: #03072c;
+        background-color:rgba(127,176,231,.2);
+        cursor: pointer;
+        
+    }
+    #timer {
+        color: #03072c;
+        align-self: center;
+        margin: 1em auto;
+        font-size: 5em;
+        font-family: monospace;
+    }
+
+
+    /* background: radial-gradient(circle, #010123 21%, #0071b0 44%, #03072c 81%); */
